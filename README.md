@@ -69,3 +69,10 @@ change the expo package version in package.json to 38.0.8
 remove react-native-safe-area-context from your package.json
 run yarn or npm install
 run expo install react-native-safe-area-context
+
+#### expo start
+error: unknown option `--assetExts'
+Metro Bundler process exited with code 1
+Set EXPO_DEBUG=true in your env to view the stack trace.
+오류의 경우 expo-cli, react-native, expo 호환버전이 맞지 않아서 이므로 재설치 진행 
+cf. global 로 설치된 버전 확인도 해야함
