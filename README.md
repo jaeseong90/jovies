@@ -76,3 +76,19 @@ Metro Bundler process exited with code 1
 Set EXPO_DEBUG=true in your env to view the stack trace.
 오류의 경우 expo-cli, react-native, expo 호환버전이 맞지 않아서 이므로 재설치 진행 
 cf. global 로 설치된 버전 확인도 해야함
+
+## 배포
+expo 배포 가이드 참고
+https://docs.expo.io/guides/ 참고
+expo build:android
+choose aab 파일로 시작
+expo 사이트에서 완료되면 다운로드
+expo 어플 설치된경우 로그인하여 project 에서 해당 app 실행가능
+
+google play console 에서 앱 패포
+- 개발자개정등록(25$)
+- 앱 생성하여 넣기 
+- 최근 개인정보처리방침 필요하여 https://www.privacy.go.kr/ 포털 활용하여 정책 생성 후 사이트에 올림
+- 개인정보처리방침 url 등록 하여 링크 연결
+- 이것저것 진행하고 프로덕션등록
+- 검토 언제 끝남?
