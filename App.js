@@ -24,7 +24,6 @@ export default function App() {
 
   const loadAssets = () => {
     const images = cacheImages([
-      'http://www.starship-ent.com/img/board_top_image/lijah.jpg',
       'https://images.unsplash.com/photo-1529511696370-b8554caa7261?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80',
       require('./assets/splash.png'),
     ]);
